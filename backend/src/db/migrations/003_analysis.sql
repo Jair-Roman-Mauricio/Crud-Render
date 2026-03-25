@@ -1,0 +1,2 @@
+ALTER TABLE surveys ADD COLUMN IF NOT EXISTS ai_analysis TEXT;
+ALTER TABLE surveys ADD COLUMN IF NOT EXISTS analysis_generated_at TIMESTAMPTZ;
